@@ -23,12 +23,12 @@ a:focus {
 .tm-left-right-container { width: 100%; }
 
 .tm-blue-bg {
-	background-color: #006599;
+	background-color: #FFE4E1;
 	color: white;
 }
 
 .tm-blue-text {	color: #006599; }
-.tm-blue-bg a {	color: white; }
+.tm-blue-bg a {	color: black; }
 
 .tm-site-name {
 	font-size: 4rem;
@@ -78,7 +78,7 @@ p { line-height: 2; }
 .tm-nav-item:active a,
 .tm-nav-item:focus a,
 .tm-nav-item-link.active {
-	color: #f4ef5e;
+	color: saddlebrown;
 }
 
 .tm-about-img-container { margin-top: 50px; }
