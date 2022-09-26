@@ -7,15 +7,11 @@
 
     <title>Оставайся в СПб</title>
     <link rel="shortcut icon" href="/img/logofinal.ico" type="img/logofinal">
-<!--
-Neaty HTML Template
-http://www.templatemo.com/tm-501-neaty
--->
-    <!-- load stylesheets -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
-    <link rel="stylesheet" href="css/magnific-popup.css">                                <!-- Magnific pop up style, http://dimsemenov.com/plugins/magnific-popup/ -->
-    <link rel="stylesheet" href="css/templatemo-style.css">                                   <!-- Templatemo style -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
 </head>
     <body>        
         <div class="container">
@@ -36,7 +32,7 @@ http://www.templatemo.com/tm-501-neaty
                                     <a href="#intro" class="tm-nav-item-link">Наши приемущества</a>
                                 </li>
                                 <li class="tm-nav-item">
-                                    <a href="#galleryone" class="tm-nav-item-link">Швецова, 5558</a>
+                                    <a href="#galleryone" class="tm-nav-item-link">Швецова, 8</a>
                                 </li>
                                 <li class="tm-nav-item">
                                     <a href="#secondgallery" class="tm-nav-item-link">Стачек, 64</a>
@@ -154,38 +150,5 @@ http://www.templatemo.com/tm-501-neaty
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
-       
-            $(document).ready(function(){
-
-                // Single page nav
-                $('.tm-main-nav').singlePageNav({
-                    'currentClass' : "active",
-                    offset : 20
-                });
-
-                // Magnific pop up
-                $('.tm-gallery-1').magnificPopup({
-                  delegate: 'a', // child items selector, by clicking on it popup will open
-                  type: 'image',
-                  gallery: {enabled:true}
-                  // other options
-                }); 
-
-                $('.tm-gallery-2').magnificPopup({
-                  delegate: 'a', // child items selector, by clicking on it popup will open
-                  type: 'image',
-                  gallery: {enabled:true}
-                  // other options
-                }); 
-
-                $('.tm-gallery-3').magnificPopup({
-                  delegate: 'a', // child items selector, by clicking on it popup will open
-                  type: 'image',
-                  gallery: {enabled:true}
-                  // other options
-                }); 
-
-                $('.tm-current-year').text(new Date().getFullYear());                
-            });
 </body>
 </html>
