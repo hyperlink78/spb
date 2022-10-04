@@ -10,6 +10,7 @@ body {
 	font-size: 20px;
 	font-weight: 300;
 	overflow-x: hidden;
+	background-color: #fff0f0;
 }
 
 a, button { transition: all 0.3s ease; }
@@ -27,7 +28,7 @@ a:focus {
 	color: white;
 }
 
-.tm-blue-text {	color: #006599; }
+.tm-blue-text {	color: black; }
 .tm-blue-bg a {	color: black; }
 
 .tm-site-name {
