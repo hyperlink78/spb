@@ -350,3 +350,52 @@ img.mfp-img {
     padding-left: 6px;
     padding-right: 6px; } }
 
+.info {
+  background-color: #f9f9ff;
+  padding: 5px 25px;
+  margin-bottom: 100px;
+  margin-top: 0px;
+}
+
+.info__switch {
+  display: none;
+}
+
+.info__body {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.info__switch:checked~.info__body {
+  max-height: 1000px;
+}
+
+.info__headline::before {
+  content: "";
+  position: absolute;
+  left: -18px;
+  top: 13px;
+  border: 6px solid #39739d;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+.info__switch:checked~.info__headline::before {
+  transform: rotate(180deg) translateY(6px);
+}
+
+.info__headline {
+  display: block;
+  position: relative;
+  margin-bottom: 0px;
+  user-select: none;
+  color: black;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.info__headline:hover {
+  text-decoration-color: saddlebrown;
+}
