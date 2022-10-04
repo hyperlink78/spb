@@ -364,7 +364,7 @@ img.mfp-img {
 .info__body {
   max-height: 0;
   overflow: hidden;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 .info__switch:checked~.info__body {
