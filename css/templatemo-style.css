@@ -27,9 +27,9 @@ a:focus {
 	background-color: #FFE4E1;
 	color: white;
 }
-
-.tm-blue-text {	color: black; }
-.tm-blue-bg a {	color: black; }
+.tm-blue-texta { color: black; }
+.tm-blue-text {	color: black; text-align:  center;}
+.tm-blue-bg a {	color: black; text-align:  center;}
 
 .tm-site-name {
 	font-size: 4rem;
