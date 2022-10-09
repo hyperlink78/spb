@@ -56,14 +56,14 @@
   cursor: progress; }
 
 .mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
-  cursor: -moz-zoom-out;
-  cursor: -webkit-zoom-out;
+  cursor: default;
+  cursor: default;
   cursor: zoom-out; }
 
 .mfp-zoom {
   cursor: pointer;
-  cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
+  cursor: default;
+  cursor: default;
   cursor: zoom-in; }
 
 .mfp-auto-cursor .mfp-content {
@@ -351,7 +351,7 @@ img.mfp-img {
     padding-right: 6px; } }
 
 .info {
-  background-color: #f9f9ff;
+  background-color: white;
   padding: 5px 25px;
   margin-bottom: 100px;
   margin-top: 0px;
@@ -376,7 +376,7 @@ img.mfp-img {
   position: absolute;
   left: -18px;
   top: 13px;
-  border: 6px solid #39739d;
+  border: 6px solid saddlebrown;
   border-bottom-color: transparent;
   border-right-color: transparent;
   border-left-color: transparent;
