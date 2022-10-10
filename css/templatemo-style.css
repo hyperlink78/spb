@@ -177,7 +177,7 @@ textarea:-ms-input-placeholder {
 
 	.tm-nav-item {
 		cursor: pointer;
-		font-size: 3.3rem;
+		font-size: 1rem;
 		list-style: none;
 		padding: 10px 30px;
 		transition: all 0.3s ease;
