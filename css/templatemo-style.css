@@ -63,7 +63,7 @@ p { line-height: 2; }
 	cursor: pointer;
 	display: inline-block;
 	font-size: 1.4rem;	
-	padding: 18px 35px;
+	padding: 10px 35px;
 }
 
 .tm-button-wide { padding: 18px 40px; }
@@ -140,7 +140,7 @@ textarea:-ms-input-placeholder {
 }
 
 .tm-contact-right {	padding-left: 15px; }
-.tm-copyright-p { margin-bottom: 0; }
+.tm-copyright-p { margin-bottom: 0;}
 
 /* Media Queries */
 @media (min-width: 576px) {
@@ -167,19 +167,19 @@ textarea:-ms-input-placeholder {
 		height: 100%;
 	}
 
-	.container { width: 100%; }
-	.tm-left-column { width: 30%; }
+	.container { width: 50%; }
+	.tm-left-column { width: 20%; }
 
 	.tm-right-column {
 		float: right;
-		width: 70%;
+		width: 80%;
 	}
 
 	.tm-nav-item {
 		cursor: pointer;
-		font-size: 1.5rem;
+		font-size: 3.3rem;
 		list-style: none;
-		padding: 18px 30px;
+		padding: 10px 30px;
 		transition: all 0.3s ease;
 	}
 
@@ -191,11 +191,14 @@ textarea:-ms-input-placeholder {
 	.tm-logo-div {
 	    padding-top: 50px;
 	    padding-bottom: 50px;
+		margin-bottom: 0px;
 	}
+
+	.tm-section { margin-bottom: 10px; }
 
 	.tm-section { margin-bottom: 100px; }
 
-	.tm-content-div { padding: 80px 40px 30px 80px;	}
+	.tm-content-div { padding: 50px 50px 5px 50px;	}
 
 	.tm-img-container-1 {
 		margin-bottom: 10px;
