@@ -288,3 +288,34 @@ textarea:-ms-input-placeholder {
 
 	.tm-nav-item { font-size: 1.9rem; }
 }
+.column {
+	float: left;
+	width: 25%;
+	padding: 15px;
+}
+
+.column img {
+	cursor: pointer;
+}
+
+.column img:hover {
+	opacity: 1;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container {
+	position: static;
+}
+
+#imgtext {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: white;
+	font-size: 20px;
+}
