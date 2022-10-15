@@ -6,7 +6,7 @@ http://www.templatemo.com/tm-501-neaty
 
 */
 body {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 300;
 	overflow-x: hidden;
@@ -37,7 +37,7 @@ a:focus {
 }
 
 .tm-logo-div { 
-	padding-top: 40px; 
+	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
@@ -317,4 +317,33 @@ textarea:-ms-input-placeholder {
 	left: 15px;
 	color: white;
 	font-size: 20px;
+}
+
+.bullet {
+	margin-left: 0;
+	list-style: none;
+	counter-reset: li;
+}
+.bullet li {
+	position: relative;
+	margin-bottom: 1.5em;
+	border: 3px solid saddlebrown;
+	padding: 0.6em;
+	border-radius: 4px;
+	background: #FEFEFE;
+	color: #231F20;
+	font-family: "Trebuchet MS", "Lucida Sans";
+}
+.bullet li:before {
+	position: absolute;
+	top: -0.7em;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+	font-size: 16px;
+	font-weight: bold;
+	color: saddlebrown;
+	background: #FEFEFE;
+	border-radius: 50%;
+	counter-increment: li;
+	content: counter(li);
 }
