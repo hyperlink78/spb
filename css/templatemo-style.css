@@ -133,7 +133,7 @@ textarea:-ms-input-placeholder {
 }
 
 .tm-contact-right {	padding-left: 15px; }
-.tm-copyright-p { margin-bottom: 0;}
+.tm-copyright-p { margin-bottom: 0; color: #0b0b0b}
 
 /* Media Queries */
 @media (min-width: 576px) {
@@ -390,4 +390,13 @@ textarea:-ms-input-placeholder {
 }
 .social-icons .social-icon-cian::before {
 	background-image: url("https://play-lh.googleusercontent.com/aH9BpmgAQKGhSJHyxf0rRcLDPL70vsWUf2enCbaKFUjvPXJtM-jgMKWO4GRmycXyBco");
+}
+
+footer {
+	padding: 10px 20px;
+	background: #FFE4E1;
+	color: white;
+}
+a {
+	color: #00aaff;
 }
