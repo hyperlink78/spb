@@ -224,6 +224,24 @@
                                 <div class="info__body" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/avenir_putilov/120861034470/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0;">  Авенир Путилов</a><a href="https://yandex.ru/maps/2/saint-petersburg/category/housing_complex/64960171169/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">  Жилой комплекс в Санкт‑Петербурге</a><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A85a046073b87eb77d103f4b50894bbd46d22fbf113e4e003bac059f84474cbf3&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe></div>
                             </div>
 
+                            <script src="https://myreviews.dev/widget/dist/index.js" defer></script>
+                            <script defer>
+                                var myReviewsInit = function () {
+                                    new window.myReviews.VerticalWidget({
+                                        id: 3194,
+                                        name: "verticalWidget-1",
+                                        additionalFrame: "badge"
+                                    }).init()
+                                };
+                                if (document.readyState === "loading") {
+                                    document.addEventListener('DOMContentLoaded', function () {
+                                        myReviewsInit()
+                                    })
+                                } else {
+                                    myReviewsInit()
+                                }
+                            </script>
+
                             <footer>
                                 <p class="tm-copyright-p">Copyright &copy; <span class="tm-current-year">2022</span> <a target="_blank"  href="https://vk.com/dkazarinov1"> Kazarinov Denis</a>
 
