@@ -4,6 +4,8 @@ body {
 	font-weight: 300;
 	overflow-x: hidden;
 	background-color: #fff0f0;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
 a, button { transition: all 0.3s ease; }
@@ -399,4 +401,15 @@ footer {
 }
 a {
 	color: #00aaff;
+}
+
+.logoa {
+	position: relative;
+	width: 200px;
+	top: -50px
+}
+
+.namea{
+	position: relative;
+	top: -50px;
 }
