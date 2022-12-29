@@ -1,4 +1,3 @@
-/* Magnific Popup CSS */
 .mfp-bg {
   top: 0;
   left: 0;
@@ -376,7 +375,7 @@ img.mfp-img {
   content: "";
   position: absolute;
   left: -18px;
-  top: 13px;
+  top: 9px;
   border: 6px solid saddlebrown;
   border-bottom-color: transparent;
   border-right-color: transparent;

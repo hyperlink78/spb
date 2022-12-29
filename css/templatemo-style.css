@@ -44,6 +44,7 @@ a:focus {
 .tm-main-nav-ul {
 	display: inline-block;
 	padding-left: 0;
+	width: 100%;
 }
 
 .tm-section { margin-bottom: 10px; }
@@ -332,14 +333,15 @@ textarea:-ms-input-placeholder {
 .bullet {
 	list-style: none;
 	counter-reset: li;
-	margin-left: -1em;
 	width: 100%;
 	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 .bullet li {
 	position: relative;
 	margin-bottom: 1.5em;
-	border: 3px solid saddlebrown;
 	padding: 0.6em;
 	border-radius: 4px;
 	background: #FEFEFE;
@@ -427,7 +429,7 @@ a {
 .logoa {
 	position: relative;
 	width: 200px;
-	top: -50px;
+	top: 0;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -435,7 +437,7 @@ a {
 
 .namea{
 	position: relative;
-	top: -50px;
+	top: -15px;
 	color: black;
 	text-align: center;
 }
